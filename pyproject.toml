@@ -1,0 +1,6 @@
+[project]
+name = "fundywundy"
+version = "0.1.0"
+description = "Fund allocations for buying & selling"
+requires-python = ">=3.14"
+dependencies = []
