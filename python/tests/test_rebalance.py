@@ -1,6 +1,6 @@
 import unittest
 
-from src.main import calculate_orders
+from python.src.main import calculate_orders
 
 class TestKernelRebalancer(unittest.TestCase):
     def setUp(self):
