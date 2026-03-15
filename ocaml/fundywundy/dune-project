@@ -1,0 +1,23 @@
+(lang dune 3.21)
+
+(name fundywundy)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Nick Webster <nick@nick.geek.nz>")
+
+(maintainers "Nick Webster <nick@nick.geek.nz>")
+
+(license LICENSE)
+
+(package
+ (name fundywundy)
+ (synopsis "Fund allocations for buying & selling")
+ (description "Fund allocations for buying & selling")
+ (depends ocaml)
+ (tags ()))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
