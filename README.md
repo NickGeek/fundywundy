@@ -1,3 +1,6 @@
 # Fundywundy
-I didn't want to do the somewhat simple but tedious maths to handle some of my savings so I vibe coded this slop.
-I'm probably gonna rewrite it into a few languages and make it a little more generic for wider use because why not.
+I didn't want to do the somewhat simple but tedious maths to handle some of my savings so this is here.
+
+I originally vibe coded this slop as Python but I've since rewritten it by hand in OCaml.
+Right now the library portion is pretty reusable but the binary portion is still hard coded to my usage.
+I statically link everything including `libc` so I can run this on my Android phone.
