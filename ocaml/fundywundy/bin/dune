@@ -1,5 +1,4 @@
 (executable
  (public_name fundywundy)
  (name main)
- (libraries fundywundy linenoise)
- (ocamlopt_flags (:standard -ccopt -static -cclib -static)))
+ (libraries fundywundy linenoise))

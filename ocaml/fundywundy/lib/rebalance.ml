@@ -1,7 +1,3 @@
-open Int64
-
-exception Todo of string
-
 module Cents = struct
   include Int64
   let (+) = add
@@ -60,7 +56,7 @@ let balances_total (balances : balances) : Cents.t =
 
 type order_mode = Buy | Sell
 let calculate_orders (balances : balances) amount (targets : fund_targets) mode : balances =
-  assert (FundMap.length balances == FundMap.length targets);
+  assert (FundMap.length balances = FundMap.length targets);
   assert (not (FundMap.is_empty balances));
   let open Cents in
   let new_total = balances_total balances + (match mode with Buy -> amount | Sell -> amount * -1L) in
